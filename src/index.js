@@ -1,8 +1,7 @@
 import './style.css';
-import { addListeners, getStatusTasks } from './statusTasks.js';
-import addDrag from './dragDrop.js';
-
-import { addTask, deleteCompleted, editBtns } from './crud.js';
+import { addListeners, getStatusTasks } from './statusTasks';
+import addDrag from './dragDrop';
+import { addTask, deleteCompleted, editBtns } from './crud';
 
 require('bootstrap-icons/font/bootstrap-icons.css');
 

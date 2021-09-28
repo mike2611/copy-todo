@@ -1,4 +1,4 @@
-import { getStatusTasks } from './statusTasks.js';
+import { getStatusTasks } from './statusTasks';
 
 class Task {
   constructor(ind = 0, des = '') {
